@@ -11,7 +11,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch('https://api.airtable.com/v0/appBFSZVCmNb89HUa/Food%20Banks?api_key=keyiLYr45hdasL4Cb')
+		fetch('https://api.airtable.com/v0/appBFSZVCmNb89HUa/Food%20Banks?api_key=keyW82bTT2VT9uN4c')
 			.then(res => res.json())
 			.then(res => this.setState({ foodBankData: res.records }))
 			.catch(error => console.log(error))
